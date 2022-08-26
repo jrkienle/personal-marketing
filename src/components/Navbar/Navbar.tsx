@@ -19,6 +19,14 @@ function Navbar() {
             <span className="sr-only">Home</span>
           </a>
         </Link>
+        <Link href="/projects">
+          <a
+            className="block hover:text-orange-400 font-bold focus:outline-none focus:ring focus:ring-sky-500 mb-2 mr-4 md:mr-12 text-lg transition"
+            href="replace"
+          >
+            Projects
+          </a>
+        </Link>
         <Link href="/resume">
           <a
             className="block hover:text-orange-400 font-bold focus:outline-none focus:ring focus:ring-sky-500 mb-2 text-lg transition"
