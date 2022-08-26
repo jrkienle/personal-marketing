@@ -16,7 +16,7 @@ function Button({
   type = 'primary',
   ...props
 }: ButtonProps) {
-  const classNames = twsx('active:translate-y-1 active:shadow-none block hover:shadow-lg px-6 py-4 rounded shadow-md transition w-fit', {
+  const classNames = twsx('active:translate-y-1 active:shadow-none block hover:shadow-lg focus:outline-none focus:ring focus:ring-sky-500 px-6 py-4 rounded shadow-md transition w-fit', {
     'bg-orange-400': type === 'primary',
     'hover:bg-orange-500': type === 'primary',
     'text-white': type === 'primary',

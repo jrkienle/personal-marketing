@@ -6,9 +6,9 @@ import Container from 'components/Container';
 function Navbar() {
   return (
     <header className="bg-white dark:bg-slate-800 pb-3 pt-4 shadow-lg">
-      <Container>
+      <Container className="flex items-center">
         <Link href="/">
-          <a className="focus:outline-none focus:ring focus:ring-sky-500" href="replace">
+          <a className="focus:outline-none focus:ring focus:ring-sky-500 mr-8" href="replace">
             <Image
               alt=""
               className="cursor-pointer"
@@ -17,6 +17,14 @@ function Navbar() {
               width="114px"
             />
             <span className="sr-only">Home</span>
+          </a>
+        </Link>
+        <Link href="/resume">
+          <a
+            className="block hover:text-orange-400 font-bold focus:outline-none focus:ring focus:ring-sky-500 mb-2 text-lg transition"
+            href="replace"
+          >
+            Résumé
           </a>
         </Link>
       </Container>

@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@heroicons/react': ^2.0.1
+  '@icons-pack/react-simple-icons': ^5.4.0
   '@types/node': 18.7.7
   '@types/react': 18.0.17
   '@types/react-dom': 18.0.6
@@ -30,6 +31,7 @@ specifiers:
 
 dependencies:
   '@heroicons/react': 2.0.1_react@18.2.0
+  '@icons-pack/react-simple-icons': 5.4.0_react@18.2.0
   next: 12.2.5_react-dom@18.2.0+react@18.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -118,6 +120,14 @@ packages:
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
+
+  /@icons-pack/react-simple-icons/5.4.0_react@18.2.0:
+    resolution: {integrity: sha512-EN8Db9c5D1JuSSKwl1NrjPl050fARgTsdMQrPU23BeHy3s3cDvrjossUw9XeQ5aN2NN1xZOmXM6kP4aSbNhsQg==}
+    peerDependencies:
+      react: ^16.13 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /@next/env/12.2.5:
     resolution: {integrity: sha512-vLPLV3cpPGjUPT3PjgRj7e3nio9t6USkuew3JE/jMeon/9Mvp1WyR18v3iwnCuX7eUAm1HmAbJHHLAbcu/EJcw==}
